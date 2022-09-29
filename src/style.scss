@@ -1,0 +1,37 @@
+:root{
+    --green:hsl(349, 48%, 9%);
+    --border-size: 16px;
+    --font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: hsl(192, 43%, 62%);
+    color:  var(--green);
+    font-family: var(--font);
+}
+img{
+    border: var(--border-size) solid;
+    border-color: var(--green);
+    border-radius: 15px;
+}
+.btn{
+    background-color: var(--green);
+    color: aliceblue;
+    border: none;
+    outline: none;
+    padding: 45px 60px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s cubic-bezier(0.95,-0.49, 0.32, 1.27);
+
+    &:hover{background-color: antiquewhite;
+    color: black;
+    }
+}
+a{
+    text-decoration: none;
+    color: aquamarine;
+    font-weight: 800;
+    &:hover {color: purple;}
+}
+a:hover
